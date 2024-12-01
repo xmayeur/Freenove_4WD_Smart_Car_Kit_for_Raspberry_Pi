@@ -81,7 +81,7 @@ class Ultrasonic:
                 self.run_motor(L, M, R)
                 self.pwm_S.setServoPwm("0", 90)
             else:
-                self.run_motor(20, M, 20)
+                self.run_motor(200, M, 200)
 
     def run0(self):
         self.PWM = Motor()
